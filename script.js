@@ -1,4 +1,4 @@
-function logSwitch(element){
+function logSwitch(element) {
     element.innerText = "Logout";
 }
 

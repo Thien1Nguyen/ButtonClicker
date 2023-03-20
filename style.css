@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Balsamiq Sans', cursive;
@@ -8,7 +9,7 @@
 /* util tools */
 
 /* NavBar */
-.navBar{
+.navBar {
     display: flex;
     justify-content: center;
     background-color: rgb(167, 167, 167);
@@ -19,97 +20,111 @@
     padding-left: 30px;
     padding-right: 30px;
 }
-.logoText{
+
+.logoText {
     font-size: 30px;
     font-weight: bolder;
 }
-.searchBar{
+
+.searchBar {
     margin: auto;
     box-shadow: 2px 2px 2px black;
     border-radius: 2px;
 }
-.searchSpace{
+
+.searchSpace {
     font-size: 20px;
 }
-.logBtn{
+
+.logBtn {
     width: 70px;
     height: 25px;
     color: white;
-    background-color:rgb(51, 51, 226);
+    background-color: rgb(51, 51, 226);
     box-shadow: 5px 5px 1px black;
     border-radius: 3px;
     border: 2px solid black;
 }
 
-.masterContainer{
+.masterContainer {
     display: flex;
     padding: 25px;
     width: 600px;
     margin: auto auto;
     gap: 0 30px;
 }
-.leftColumn{
-flex: 2.5;
-gap: 20px
+
+.leftColumn {
+    flex: 2.5;
+    gap: 20px
 }
-.leftContainer{
-    display:flex;
+
+.leftContainer {
+    display: flex;
     border: 2px solid black;
     border-radius: 3px;
     margin-bottom: 10px;
     height: 150px;
 }
 
-.ninjaInfoBox{
-width: 150px;
-padding: 10px;
+.ninjaInfoBox {
+    width: 150px;
+    padding: 10px;
 }
-.noun{
+
+.noun {
     margin-left: 8px;
 }
-.plural{
+
+.plural {
     width: 100px;
 }
 
-.likeBtn{
+.likeBtn {
     background-color: rgb(255, 217, 0);
     margin-top: 10px;
     width: 80px;
     height: 30px;
     box-shadow: 2px 2px 2px black;
 }
-.ninjaDefinionBox{
+
+.ninjaDefinionBox {
     padding: 20px;
     margin: auto auto;
     font-size: 18px;
 }
 
 
-.rightColumn{
+.rightColumn {
     flex: 1.2;
     justify-content: center;
 }
-.rightContainer{
+
+.rightContainer {
     border: 2px solid black;
     border-radius: 3px;
     height: 100px;
     font-size: larger;
     padding: 5px;
 }
-.yourDefbox{
+
+.yourDefbox {
     font-size: 20px;
 }
-span{
+
+span {
     font-weight: bold;
 }
-.addDef{
+
+.addDef {
     display: flex;
     margin: auto auto;
     justify-content: center;
 }
-.addDefBtn{
+
+.addDefBtn {
     width: 120px;
-    background-color:rgb(128, 180, 151);
+    background-color: rgb(128, 180, 151);
     box-shadow: 5px 5px 1px black;
     margin-left: 20px;
     margin-top: 10px;
